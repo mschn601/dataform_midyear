@@ -4,4 +4,4 @@ config {
 
 select *
 from ${ref("gcp_team_j")}
-where name like 'Brot%'
+where name like '%Brot%'
