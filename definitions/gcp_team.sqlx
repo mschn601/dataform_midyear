@@ -1,0 +1,7 @@
+config {
+  type: "declaration",
+  database: "midyear-respect-279901",
+  schema: "bq_testing",
+  name: "gcp_team",
+  description: "gcp team members"
+}
