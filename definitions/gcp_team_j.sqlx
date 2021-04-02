@@ -3,5 +3,5 @@ config {
 }
 
 select *
-from bq_testing.gcp_team
+from ${ref("gcp_team")}
 where name like 'J%'
